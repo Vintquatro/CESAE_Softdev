@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e10f1613-a414-4220-a5bb-00414c80c66e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica02/Ex_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica02/Ex_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica02/Ex_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica02/Ex_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica02/Ex_09.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FichasPratica/src/FichaPratica01/Ex_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica01/Ex_07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FichasPratica/src/FichaPratica01/Ex_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica01/Ex_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FichasPratica/src/FichaPratica02/Ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/FichasPratica/src/FichaPratica02/Ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev/FichaPratica01/Ex_07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev/FichaPratica01/Ex_07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev/FichaPratica01/Ex_08.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev/FichaPratica01/Ex_08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CESAE_Softdev/FichaPratica02/Ex_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CESAE_Softdev/FichaPratica02/Ex_01.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
