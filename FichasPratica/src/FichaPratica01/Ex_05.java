@@ -6,7 +6,7 @@ public class Ex_05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int num1, num2,num3;
+        double num1, num2,num3;
 
 
         System.out.print("Insira um número1: ");
