@@ -24,7 +24,7 @@ public class Ex_09 {
             if(n1<n3){
                 System.out.println(n1 + "é o numero menor");
             }
-            //ACABAR OS IFS
+            //ACABAR OS IFS NA AULA
 
         }
 
