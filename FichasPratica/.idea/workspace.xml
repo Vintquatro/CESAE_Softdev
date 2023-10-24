@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10f1613-a414-4220-a5bb-00414c80c66e" name="Changes" comment="" />
+    <list default="true" id="3d725f3c-df45-477b-8f75-788676210642" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,19 +17,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
-  <component name="ProjectId" id="2X1Frvg9XpaDdQdKX8XIAILl8sD" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2WyiEyvtOjULyGWZRy2CdWJWrSQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,17 +29,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/diogo/Desktop/CESAE_SoftDev/PROGRAMACAO"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/diogo/Desktop/CESAE_SoftDev",
+    "onboarding.tips.debug.path": "C:/Users/diogo/Desktop/CESAE_SoftDev/FichasPratica/src/Main.java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e10f1613-a414-4220-a5bb-00414c80c66e" name="Changes" comment="" />
-      <created>1697788880162</created>
+      <changelist id="3d725f3c-df45-477b-8f75-788676210642" name="Changes" comment="" />
+      <created>1697711113829</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697788880162</updated>
+      <updated>1697711113829</updated>
     </task>
     <servers />
   </component>

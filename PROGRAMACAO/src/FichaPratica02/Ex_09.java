@@ -22,10 +22,18 @@ public class Ex_09 {
 
         if (n1<n2) {
             if(n1<n3){
-                System.out.println(n1 + "é o numero menor");
+                System.out.println(n1 + " é o numero menor ");
+            } else if (n3<n2) {
+                System.out.println(n3 + " é o numero menor ");
             }
-            //ACABAR OS IFS NA AULA
+        }
 
+        if (n2<n1) {
+            if(n2<n3){
+                System.out.println(n2 + " é o numero menor ");
+            } else if (n3<n2) {
+                System.out.println(n3 + " é o numero menor ");
+            }
         }
 
 
