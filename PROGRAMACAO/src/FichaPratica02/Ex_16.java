@@ -10,45 +10,46 @@ public class Ex_16 {
 
         System.out.print("Quantia: ");
 
-        int valor,numeroDeNotas;
+        int val,numeroDeNotas;
 
-        valor = input.nextInt();
+        val = input.nextInt();
 
-        if (valor % 5 != 0) {
+        if (val % 5 != 0) {
             System.out.println("Entrada inválida");
         } else {
+            //550 val --- numero de notas = 2
 
-            numeroDeNotas = valor / 200;
+            numeroDeNotas = val / 200;
             if (numeroDeNotas > 0) {
                 System.out.println("200 : " + numeroDeNotas);
-                valor = valor % 200;
+                val = val % 200; //val 150
             }
 
-            numeroDeNotas = valor / 100;
+            numeroDeNotas = val / 100;
             if (numeroDeNotas > 0) {
                 System.out.println("100 : " + numeroDeNotas);
-                valor = valor % 100;
+                val = val % 100;
             }
 
-            numeroDeNotas = valor / 50;
+            numeroDeNotas = val / 50;
             if (numeroDeNotas > 0) {
                 System.out.println("50 : " + numeroDeNotas);
-                valor = valor % 50;
+                val = val % 50;
             }
 
-            numeroDeNotas = valor / 20;
+            numeroDeNotas = val / 20;
             if (numeroDeNotas > 0) {
                 System.out.println("20 : " + numeroDeNotas);
-                valor = valor % 20;
+                val = val % 20;
             }
 
-            numeroDeNotas = valor / 10;
+            numeroDeNotas = val / 10;
             if (numeroDeNotas > 0) {
                 System.out.println("10 : " + numeroDeNotas);
-                valor = valor % 10;
+                val = val % 10;
             }
 
-            numeroDeNotas = valor / 5;
+            numeroDeNotas = val / 5;
             if (numeroDeNotas > 0) {
                 System.out.println("5 : " + numeroDeNotas);
             }
