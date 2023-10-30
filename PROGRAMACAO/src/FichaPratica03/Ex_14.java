@@ -6,7 +6,6 @@ public class Ex_14 {
     public static void main(String[] args) {
 
         Scanner input= new Scanner(System.in);
-
         int fator, contador,total=1;
 
 
