@@ -2,6 +2,8 @@ package FichaPratica01;
 
 import java.util.Scanner;
 
+import static FichaPratica06.Ex_01.fazerbarulho;
+
 public class Ex_01 {
 
     public static void main(String[] args) {
@@ -25,5 +27,6 @@ public class Ex_01 {
 
         // Apresentar a soma
         System.out.println("Soma: " + soma);
+
     }
 }
