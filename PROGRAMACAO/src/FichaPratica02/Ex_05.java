@@ -7,6 +7,8 @@ public class Ex_05 {
 
         Scanner input = new Scanner(System.in);
 
+
+
         int num1, num2;
 
         System.out.println("num1: ");
