@@ -15,6 +15,8 @@ public class Ex_05 {
 
         for (int i=0;i<10;i++){
             myvec[i]=new Random().nextInt(0,100);
+
+            System.out.println("teste ... "+myvec.length);
             System.out.println(myvec[i]);
             media=media+myvec[i];
         }

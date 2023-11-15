@@ -3,6 +3,7 @@ package FichaPratica06;
 import java.util.Random;
 
 public class Ex_08 {
+
     static void somarMatrizes(int[][] matriz1, int[][] matriz2) {
 
         for (int i=0; i < 3; i++) {
