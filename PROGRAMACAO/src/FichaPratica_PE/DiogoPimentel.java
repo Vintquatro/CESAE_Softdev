@@ -12,17 +12,13 @@ public class DiogoPimentel {
 
         Scanner input = new Scanner(System.in);
 
-
-
         //Chamada do grafismo inicial
         bemvindo();
 
-        
-
-
         //Chamada da funcao do menu de login
-        String utilizador="";
-        menuUtilizador(utilizador);
+        menuUtilizador();
+
+
 
 
     }
