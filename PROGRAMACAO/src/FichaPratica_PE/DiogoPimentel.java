@@ -1,16 +1,16 @@
 package FichaPratica_PE;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
-
-import static FichaPratica_PE.LibrariaFuncoes.bemvindo;
-import static FichaPratica_PE.LibrariaFuncoes.menuUtilizador;
+import static FichaPratica_PE.LibrariaFuncoes.*;
 
 public class DiogoPimentel {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         Scanner input = new Scanner(System.in);
+
 
         //Chamada do grafismo inicial
         bemvindo();
