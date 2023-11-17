@@ -43,7 +43,7 @@ public class LibrariaFuncoes {
         Scanner input = new Scanner(System.in);
         String password, utilizador;
 
-        while (true){
+        while (true) {
             //Input da string para login
             System.out.println("Insira ADMIN ou CLIENTE para iniciar sessão");
             System.out.println("---------Usuário é case sensitive----------");
@@ -55,7 +55,7 @@ public class LibrariaFuncoes {
             switch (utilizador) {
                 // loop infinito para que caso o login seja de cliente, fique apenas desse modo ate ser terminado o programa
                 case "CLIENTE":
-                    while (true){
+                    while (true) {
                         menuCLIENTE();
                     }
 
@@ -72,7 +72,7 @@ public class LibrariaFuncoes {
                     } while (!password.equals("pass123"));
 
                     // loop infinito para que caso o login seja de admin fique apenas desse modo ate ser terminado o programa
-                    while (true){
+                    while (true) {
                         menuADMIN();
                     }
 
@@ -89,7 +89,6 @@ public class LibrariaFuncoes {
 
         }
     }
-
 
 
     //--------------------------------------------------------------------------------------------------
@@ -127,6 +126,8 @@ public class LibrariaFuncoes {
                 menuCLIENTE3(lerFicheiroParaMatriz("src/FichaPratica_PE/GameStart_V2.csv"));
                 break;
             case 4:
+                menuCLIENTE4(lerFicheiroParaMatriz("src/FichaPratica_PE/GameStart_V2.csv"));
+
                 break;
 
             //Caso o valor nao esteja entre 1 e 4, da reset ao menu.
@@ -194,7 +195,7 @@ public class LibrariaFuncoes {
         int contador = 1;
 
         for (int i = 0; i < matrizTotal.length; i++) {
-            for (int v = i+1; v < matrizTotal.length; v++) {
+            for (int v = i + 1; v < matrizTotal.length; v++) {
                 if (matrizTotal[i][7].equals(matrizTotal[v][7])) {
                     contador++;
                 }
@@ -209,8 +210,26 @@ public class LibrariaFuncoes {
 
     public static void menuCLIENTE4(String[][] matrizTotal) {
 
-    }
+        Scanner input = new Scanner(System.in);
+        String editora;
+        String[][] novamatriz = new String[matrizTotal.length][3];
 
+        System.out.println("Indique qual a editora a pesquisar: ");
+        editora = input.next();
+        System.out.println("**** " + editora + " ****");
+
+        for (int linhaeditora = 0; linhaeditora < matrizTotal.length; linhaeditora++) {
+            if (matrizTotal[linhaeditora][5].equals(editora)){
+
+
+            }
+            for (int i = 0; i < matrizTotal.length; i++) {
+                for (int v = 0; v < matrizTotal.length; v++) {
+                }
+            }
+        }
+
+    }
 
 
     //--------------------------------------------------------------------------------------------------
@@ -316,13 +335,14 @@ public class LibrariaFuncoes {
 
     /**
      * Funcao que procura o ID dado pelo utilizador e imprime o seu email nome e contacto
+     *
      * @param matrizTotal
      * @throws FileNotFoundException
      */
     public static void menuADMIN4(String[][] matrizTotal) throws FileNotFoundException {
 
         Scanner input = new Scanner(System.in);
-        String nome="", numero = "", email = "";
+        String nome = "", numero = "", email = "";
         int id;
 
 
@@ -331,13 +351,13 @@ public class LibrariaFuncoes {
 
 
         //Os ids da base de dados so vao ate 60, portanto se for maior que 60 pede input novamente
-        while (id>60){
+        while (id > 60) {
             System.out.println("O seu ID não consta na base de dados, insira-o de novo: ");
             id = input.nextInt();
         }
-            //Percorre as linhas todas da matriz ate encontrar um id igual ao dado
+        //Percorre as linhas todas da matriz ate encontrar um id igual ao dado
         for (int i = 0; i < matrizTotal.length; i++) {
-            if (id==Integer.parseInt(matrizTotal[i][1])) {
+            if (id == Integer.parseInt(matrizTotal[i][1])) {
                 nome = matrizTotal[i][2];
                 numero = matrizTotal[i][3];
                 email = matrizTotal[i][4];
@@ -350,35 +370,36 @@ public class LibrariaFuncoes {
 
     /**
      * Funcao que verifica qual o jogo mais caro por que pessoas foi comprado e qual o seu preço
+     *
      * @param matrizTotal
      * @throws FileNotFoundException
      */
-    public static void menuADMIN5(String[][] matrizTotal) throws FileNotFoundException{
-        double maiorvalor=0;
-        String jogo="";
+    public static void menuADMIN5(String[][] matrizTotal) throws FileNotFoundException {
+        double maiorvalor = 0;
+        String jogo = "";
 
         //Ciclo que vai comprar todos os valor e guardar o seu maior na variavel maiorvalor
-        for (int i = 0; i<matrizTotal.length;i++){
-            if (Double.parseDouble(matrizTotal[i][8])>maiorvalor){
-                maiorvalor=Double.parseDouble(matrizTotal[i][8]);
+        for (int i = 0; i < matrizTotal.length; i++) {
+            if (Double.parseDouble(matrizTotal[i][8]) > maiorvalor) {
+                maiorvalor = Double.parseDouble(matrizTotal[i][8]);
             }
         }
 
         //Com a variavel a ter guardado já o maior valor, vai percorrer a tabela outra vez
         //e procurar o jogo naquele valor e guardar o seu nome numa string
-        for (int i = 0; i<matrizTotal.length;i++){
-            if (maiorvalor==Double.parseDouble(matrizTotal[i][8])){
-                jogo=matrizTotal[i][7];
+        for (int i = 0; i < matrizTotal.length; i++) {
+            if (maiorvalor == Double.parseDouble(matrizTotal[i][8])) {
+                jogo = matrizTotal[i][7];
             }
         }
 
         //Mesmo procedimento do de cima mas agora para os clientes que compraram o jogo
-        System.out.println("O jogo mais caro é o: "+jogo);
-        System.out.println("Custa: "+maiorvalor+"€");
+        System.out.println("O jogo mais caro é o: " + jogo);
+        System.out.println("Custa: " + maiorvalor + "€");
         System.out.println("Foi comprado por: ");
-        for (int i = 0; i<matrizTotal.length;i++){
-            if (maiorvalor==Double.parseDouble(matrizTotal[i][8])){
-                System.out.println("-"+matrizTotal[i][2]);
+        for (int i = 0; i < matrizTotal.length; i++) {
+            if (maiorvalor == Double.parseDouble(matrizTotal[i][8])) {
+                System.out.println("-" + matrizTotal[i][2]);
             }
         }
     }
