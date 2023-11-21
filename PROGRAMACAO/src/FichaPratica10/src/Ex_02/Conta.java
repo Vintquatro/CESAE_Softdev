@@ -1,11 +1,8 @@
-package Ex_11;
-
-import java.util.Scanner;
+package Ex_02;
 
 public class Conta {
-
-    private int numeroconta;
-    private double saldo;
+    private int numeroconta,anoabertura=2023;
+    private double saldo,margememprestimo,divida;
     private String titular;
 
 
@@ -34,9 +31,28 @@ public class Conta {
 
     }
 
+
+    public void emprestimo(double quantidadeemprestimo) {
+        double emprestimo;
+        System.out.println(this.divida);
+        emprestimo = this.saldo * 0.9;
+
+        if (this.divida <= 0) {
+            if (quantidadeemprestimo > emprestimo) {
+                System.out.println("Emprestimo Impossivel");
+            } else {
+                this.divida=quantidadeemprestimo;
+                this.saldo+=quantidadeemprestimo;
+                System.out.println("Saldo: "+this.saldo+" Divida: "+this.divida);
+            }
+        }else {
+            System.out.println("Pague as suas dividas caloteiro antes de pedir emprestimos");
+        }
+    }
+
+
     public void saldoconta(){
         System.out.println("SALDO CONTA "+this.titular+": "+this.saldo+" EUR");
     }
-
 
 }
