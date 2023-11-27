@@ -194,6 +194,8 @@ public class LibrariaFuncoes {
     public static void menuCLIENTE3(String[][] matrizTotal) {
         int contador = 1;
 
+
+        //impressora de jogos sem repeticao || Compara a coluna toda ate arranjar o ultimo que nao se repete
         for (int i = 0; i < matrizTotal.length; i++) {
             for (int v = i + 1; v < matrizTotal.length; v++) {
                 if (matrizTotal[i][7].equals(matrizTotal[v][7])) {
@@ -212,24 +214,59 @@ public class LibrariaFuncoes {
 
         Scanner input = new Scanner(System.in);
         String editora;
-        String[][] novamatriz = new String[matrizTotal.length][3];
 
         System.out.println("Indique qual a editora a pesquisar: ");
         editora = input.next();
         System.out.println("**** " + editora + " ****");
+        int contador = 0;
 
+        //Comparador da coluna editora com a string dada
+        //Criacao de um contador para saber o tamanho para o novo vetor a criar para as categorias de jogos
         for (int linhaeditora = 0; linhaeditora < matrizTotal.length; linhaeditora++) {
-            if (matrizTotal[linhaeditora][5].equals(editora)){
-
-
-            }
-            for (int i = 0; i < matrizTotal.length; i++) {
-                for (int v = 0; v < matrizTotal.length; v++) {
-                }
+            if (matrizTotal[linhaeditora][5].equals(editora)) {
+                contador++;
             }
         }
 
+        //NOTA: DESDE JÁ PEÇO DESCULPA PELO PEDAÇO DE CODIGO A BAIXO VITOR, TÁ MUITO CONFUSO
+        // MAS FOI A UNICA MANEIRA QUE CONSEGUI FAZER
+
+        //Atribuicao do tamanho do novo vetor com o contador tirado de cima
+        String[] novamatriz = new String[contador];
+        String[] novamatrizjogos = new String[contador];
+        int novai=0,novacontador=1;
+
+        //Atribuicao do valores da matriz ao novo vetor, com outro contador para andar nele proprio
+        for (int linhaeditora = 0; linhaeditora < matrizTotal.length; linhaeditora++) {
+            if (matrizTotal[linhaeditora][5].equals(editora)) {
+
+                novamatriz[novai]=matrizTotal[linhaeditora][6];
+                novamatrizjogos[novai]=matrizTotal[linhaeditora][7];
+                novai++;
+            }
+        }
+
+        //Utilizacao do mesmo metodo de condicao do MENUCLIENTE3 para que apenas imprima
+        //as categorias da string dada a cima com sem repetir as mesmas.
+        for (int v=0;v<novamatriz.length;v++) {
+            for (int z = v + 1; z < novamatriz.length; z++) {
+                if (novamatriz[v].equals(novamatriz[z])) {
+                    novacontador++;
+                }
+            }
+
+            if (novacontador < 2) {
+                System.out.println("__"+novamatriz[v]+"__");
+
+                for (int x= 0; x<novamatrizjogos.length;x++){
+                   // System.out.println(novamatrizjogos[x]);
+                }
+
+            }
+            novacontador = 1;
+        }
     }
+
 
 
     //--------------------------------------------------------------------------------------------------
