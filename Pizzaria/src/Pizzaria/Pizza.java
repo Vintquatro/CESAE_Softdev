@@ -91,6 +91,7 @@ public class Pizza {
     }
 
     public void removeingrediente(Ingredientes removeringrediente){
+
         ingredientes.remove(removeringrediente);
     }
 
