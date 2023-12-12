@@ -1,0 +1,101 @@
+1. O que são design paterns?
+
+	São soluções típicas para problemas comuns em projetos de
+software. São como projetos de obras pré-fabricadas
+que podemos adaptar para resolver um problema de
+projeto recorrente no código.
+	O Design Pattern não é um
+pedaço de código específico, mas um conceito geral
+para resolver um problema em particular. Podemos
+seguir os detalhes do padrão e implementar uma
+solução que se adeque às realidades do projeto em
+questão.
+	Enquanto um algoritmo define sempre um conjunto
+claro de ações para atingir uma meta, um padrão é
+mais uma descrição de alto nível de uma solução.
+
+
+2. Proposito de um Design Pattern
+
+	O Propósito do padrão descreve brevemente o problema e a solução.
+
+
+3.Motivação de um Design Pattern
+
+	A Motivação explica a fundo o problema e a solução que o padrão torna
+possível.
+
+
+4.Estruturas de um Design Pattern
+
+	As Estruturas de classes mostram cada parte do padrão e como se relacionam.
+
+
+5. Exemplos de código de um Design Pattern
+
+	Exemplos de código numa das linguagens de programação populares tornam
+mais fácil compreender a ideia por trás do padrão
+
+	Alguns catálogos de padrão listam outros detalhes úteis, tais como a aplicabilidade
+do padrão, etapas de implementação, e relações com outros padrões.
+
+
+6. Porquê aprender Design Patterns?
+
+	Os Design Patterns são um kit de ferramentas para
+soluções tentadas e testadas para problemas comuns
+em projetos de software. 
+
+
+7. Críticas aos Design Patterns
+
+	Soluções ineficientes - Os padrões tentam sistematizar abordagens que já são
+amplamente usadas.
+
+
+8. Classificação de Design Patterns
+	Design Patterns diferem em complexidade, nível de
+detalhe, e escala de aplicabilidade ao sistema inteiro que
+está a ser desenvolvido
+	Os padrões mais básicos e de baixo nível são
+frequentemente chamados idiomáticos.
+	Os padrões mais universais e de alto nível são os padrões
+arquitetónicos
+
+	Padrões criacionais (Creational Patterns) -> mecanismos de criação de objetos que 
+aumentam a flexibilidade e a reutilização de código
+		Factory Method
+		Abstract Method
+		Builder
+		Prototype
+		Singleton
+
+
+	Padrões estruturais (Structural Patterns) -> explicam como instanciar objetos e classes
+ em estruturas maiores, enquanto ainda mantém as estruturas flexíveis e eficientes.
+		Adapter
+		Bridge
+		Composite
+		Decorator
+		Facade
+		Flyweight
+		Proxy
+
+
+	Padrões comportamentais (Behavioral Patterns) -> cuidam da
+comunicação eficiente e da sinalização de responsabilidades entre
+objetos
+		Chain of Responsabilty
+		Command
+		Iterator
+		Mediator
+		Memento
+		Observer
+		State
+		Strategy
+		Template Method
+		Visitor
+
+
+
+	
