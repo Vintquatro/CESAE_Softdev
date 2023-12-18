@@ -8,16 +8,23 @@ public abstract class ItemHeroi {
     protected int preco;
     protected ArrayList<String> heroisPermitidos;
 
-    public ItemHeroi(String nome, int preco, ArrayList<String> heroisPermitidos) {
+    public ItemHeroi(String nome, int preco) {
         this.nome = nome;
         this.preco = preco;
-        this.heroisPermitidos = heroisPermitidos;
+        this.heroisPermitidos = new ArrayList<String>();
     }
 
     /** Metodo para exibir detalhes dos Items do Heroi
      *
      */
-    public void ExibirDetalhes(){
-        System.out.println("");
+    public void ExibirDetalhesIH(){
+        System.out.println(this.nome);
+        System.out.println(this.preco);
+        System.out.println(this.heroisPermitidos);
+
+    }
+
+    public void addHeroipermitido(String classeHeroi){
+        heroisPermitidos.add(classeHeroi);
     }
 }

@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c0e14dd-4755-425a-a4a9-151e84078c53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Entidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/NPC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Items/Consumivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ficheiros/ItensHeroiRPG.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueCloseRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueLongRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/EstrategiaAtaque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/VendedorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Heroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Consumivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CSVItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FichaPraticaStrategy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPraticaStrategy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/src/RestauranteMexicano/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/src/RestauranteMexicano/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FichaPratica_Singleton/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPratica_Singleton/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumivel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VidaAnimal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VidaAnimal/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,21 +46,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ZfWAjDjAx3DeT9N4i71hPLGAxS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev/FichaPraticaStrategy",
     "onboarding.tips.debug.path": "C:/Users/diogo/Desktop/CESAE_SoftDev/Trabalho_POO_DiogoPimentel/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\softdev\Documents\GitHub\CESAE_Softdev\Trabalho_POO_DiogoPimentel\Ficheiros" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,5 +81,11 @@
       <updated>1702813474779</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

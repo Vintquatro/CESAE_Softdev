@@ -1,0 +1,21 @@
+tipo;nome;preco;heroisPermitidos;ataque;ataqueEspecial;ataqueInstantaneo;vida;power
+ArmaPrincipal;Soqueira;75;[Melee];20;35;0;0;0
+ArmaPrincipal;Vibrador Oh-Oh;5;[Melee,Ranged;2;3;0;0;0
+ArmaPrincipal;Moto-Serra;4;[Melee];3;5;0;0;0
+ArmaPrincipal;Corta-Unhas;4;[Melee];3;5;0;0;0
+ArmaPrincipal;Navalha;4;[Melee,Ranged,Charisma];3;5;0;0;0
+ArmaPrincipal;Bazooka;4;[Ranged];3;5;0;0;0
+ArmaPrincipal;Sniper-Rifle;4;[Ranged];3;5;0;0;0
+ArmaPrincipal;Calhau;4;[Melee,Ranged];3;5;0;0;0
+ArmaPrincipal;Pistola;4;[Ranged];3;5;0;0;0
+ArmaPrincipal;Habilidade de Humilhacao;4;[Charisma];3;5;0;0;0
+ArmaPrincipal;Habilidade de Flex;4;[Charisma];3;5;0;0;0
+ArmaPrincipal;Habilidade de Rap;4;[Charisma];3;5;0;0;0
+ConsumivelCombate;Livro - Piadas de Mãe vol.69;4;[Melee,Ranged,Charisma];3;5;0;0;0
+ConsumivelCombate;Curso - Como ser um Top G;4;[Melee,Ranged,Charisma];3;5;0;0;0
+ConsumivelCombate;Cocaina;4;[Melee,Ranged];3;5;0;0;0
+ConsumivelCombate;Mebocaína;4;[Charisma];3;5;0;0;0
+ConsumivelCombate;Bloco de notas do Eminem;4;[Melee,Ranged,Charisma];3;5;0;0;0
+ConsumivelCombate;Bloco de notas do Eminem;4;[Melee,Ranged,Charisma];3;5;0;0;0
+Pocao;Vinho do Porto;5;[Melee,Ranged,Charisma];0;0;0;8;15
+Pocao;Injecao Adrenalina;18;[Melee,Ranged,Charisma];0;0;0;-15;15
