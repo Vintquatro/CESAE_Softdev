@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c0e14dd-4755-425a-a4a9-151e84078c53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Charisma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Melee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Ranged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Jogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/VendedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/VendedorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Heroi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CSVItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,5 +67,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Controllers/VendedorController.java</url>
+          <line>42</line>
+          <properties class="Controllers.VendedorController" method="vender">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

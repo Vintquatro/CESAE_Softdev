@@ -43,8 +43,8 @@ public class VendedorController {
     public void vender(Heroi heroi,ArrayList<ItemHeroi> loja10){
 
 
-
-
+// TODO: 20/12/2023 faz isto depois d'hoje 
+        
     }
 
 
