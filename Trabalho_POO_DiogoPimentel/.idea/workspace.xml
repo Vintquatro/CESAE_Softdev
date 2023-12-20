@@ -5,30 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c0e14dd-4755-425a-a4a9-151e84078c53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ficheiros/ItensHeroiRPG.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueCloseRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueLongRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/Ataques/EstrategiaAtaque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controllers/VendedorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Heroi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Consumivel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CSVItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FichaPraticaStrategy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPraticaStrategy/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/src/RestauranteMexicano/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPratica_FactoryMethod_Tacos/src/RestauranteMexicano/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FichaPratica_Singleton/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FichaPratica_Singleton/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumivel.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Charisma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Melee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Ranged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/VendedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/VendedorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Heroi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VidaAnimal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VidaAnimal/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CSVItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +54,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev/FichaPraticaStrategy",
-    "onboarding.tips.debug.path": "C:/Users/diogo/Desktop/CESAE_SoftDev/Trabalho_POO_DiogoPimentel/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/diogo/Desktop/CESAE_SoftDev/Trabalho_POO_DiogoPimentel/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">

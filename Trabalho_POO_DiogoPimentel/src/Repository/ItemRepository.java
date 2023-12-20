@@ -6,11 +6,11 @@ import Tools.CSVItemReader;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
-    public class CSVItemRepository {
+    public class ItemRepository {
         private ArrayList<ItemHeroi> itemHerois;
 
 
-        public CSVItemRepository(String filePath) throws FileNotFoundException {
+        public ItemRepository(String filePath) throws FileNotFoundException {
             CSVItemReader csvItemReader = new CSVItemReader(filePath);
             this.itemHerois=csvItemReader.readCSV();
 

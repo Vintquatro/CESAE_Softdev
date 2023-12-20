@@ -14,9 +14,11 @@ public class Pocao extends Consumivel{
 
     @Override
     public void ExibirDetalhesIH() {
+        System.out.println("*** Pocao ***");
         super.ExibirDetalhesIH();
-
         System.out.println("Aumenta: "+this.powerUP);
         System.out.println("Cura: "+this.heal);
+        System.out.println("-------------------------");
+
     }
 }

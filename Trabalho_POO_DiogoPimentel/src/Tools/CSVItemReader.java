@@ -89,7 +89,6 @@ public class CSVItemReader {
                     if (heroisPermitidos.contains("Charisma")){
                         itemHeroiAtual.addHeroipermitido("Charisma");
                     }
-
                     break;
             }
 

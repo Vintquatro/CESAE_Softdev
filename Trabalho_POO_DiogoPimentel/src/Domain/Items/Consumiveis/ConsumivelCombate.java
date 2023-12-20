@@ -12,7 +12,10 @@ public class ConsumivelCombate extends Consumivel{
 
     @Override
     public void ExibirDetalhesIH() {
+        System.out.println("*** Consumivel Combate ***");
         super.ExibirDetalhesIH();
         System.out.println("Dano: "+this.ataqueInstantaneo);
+        System.out.println("-------------------------");
+
     }
 }

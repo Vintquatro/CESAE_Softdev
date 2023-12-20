@@ -19,7 +19,7 @@ public abstract class ItemHeroi {
      */
     public void ExibirDetalhesIH(){
         System.out.println(this.nome);
-        System.out.println(this.preco);
+        System.out.println("Preco: "+this.preco+" Paus");
         System.out.println(this.heroisPermitidos);
 
     }
