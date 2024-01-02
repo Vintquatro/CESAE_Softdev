@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c0e14dd-4755-425a-a4a9-151e84078c53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controllers/HeroiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JogoRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ficheiros/ItensHeroiRPG.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Ficheiros/ItensHeroiRPG.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueCloseRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Ataques/Melee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueLongRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Ataques/Ranged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Ataques/AtaqueRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Ataques/Charisma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/Ataques/EstrategiaAtaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/Ataques/EstrategiaAtaque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/VendedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/VendedorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Entidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/Entidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Charisma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Heroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/Heroi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Melee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Heroi/Ranged.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/NPC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Entidades/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/ArmaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Consumivel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Consumivel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/ConsumivelCombate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/Consumiveis/Pocao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Items/ItemHeroi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/CSVItemReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Jogo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +64,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev/FichaPraticaStrategy",
+    "last_opened_file_path": "C:/Users/diogo/Downloads/Trabalho_POO_DiogoPimentel_3",
     "onboarding.tips.debug.path": "C:/Users/diogo/Desktop/CESAE_SoftDev/Trabalho_POO_DiogoPimentel/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -71,14 +96,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Controllers/VendedorController.java</url>
-          <line>42</line>
-          <properties class="Controllers.VendedorController" method="vender">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/View/Jogo.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

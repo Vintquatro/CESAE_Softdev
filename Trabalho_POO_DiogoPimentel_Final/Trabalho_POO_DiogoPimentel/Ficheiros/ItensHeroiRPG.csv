@@ -1,0 +1,21 @@
+tipo;nome;preco;heroisPermitidos;ataque;ataqueEspecial;ataqueInstantaneo;vida;power
+ArmaPrincipal;Soqueira;50;[Melee];10;30;0;0;0
+ArmaPrincipal;Vibrador Oh-Oh;10;[Melee,Ranged];2;3;0;0;0
+ArmaPrincipal;Vibrador Usado;1;[Melee,Ranged];1;1;0;0;0
+ArmaPrincipal;Moto-Serra;100;[Melee];30;40;0;0;0
+ArmaPrincipal;Corta-Unhas;4;[Melee];3;5;0;0;0
+ArmaPrincipal;Navalha;55;[Melee,Ranged,Charisma];10;35;0;0;0
+ArmaPrincipal;Bazooka;100;[Ranged];100;200;0;0;0
+ArmaPrincipal;Sniper-Rifle;70;[Ranged];20;49;0;0;0
+ArmaPrincipal;Pistola;50;[Ranged];25;35;0;0;0
+ArmaPrincipal;Habilidade de Humilhacao;10;[Charisma];15;30;0;0;0
+ArmaPrincipal;Habilidade de Flex;15;[Charisma];10;20;0;0;0
+ArmaPrincipal;Habilidade de Rap;5;[Charisma];3;5;0;0;0
+ConsumivelCombate;Livro - Piadas de Mãe vol.69;69;[Melee,Ranged,Charisma];3;5;69;0;0
+ConsumivelCombate;Curso - Como ser um Top G;100;[Melee,Ranged,Charisma];3;5;100;0;0
+ConsumivelCombate;Livro de Anedotas do Fernando Rocha;25;[Charisma];3;5;30;0;0
+ConsumivelCombate;Berlindes de Bolso;15;[Charisma];10;15;20;0;0
+Pocao;Monster Energy;5;[Melee,Ranged,Charisma];0;0;0;8;15
+Pocao;Injecao Adrenalina;15;[Melee,Ranged,Charisma];0;0;0;-15;15
+Pocao;Cocaina;28;[Melee,Ranged,Charisma];0;0;0;0;35
+Pocao;Prime do KSI e Logan Paul;30;[Melee,Ranged,Charisma];0;0;0;-20;-20

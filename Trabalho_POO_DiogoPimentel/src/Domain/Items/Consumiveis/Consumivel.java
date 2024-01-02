@@ -12,4 +12,6 @@ public class Consumivel extends ItemHeroi {
     }
 
 
+
+
 }

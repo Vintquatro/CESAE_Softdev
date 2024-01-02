@@ -25,6 +25,23 @@ public abstract class ItemHeroi {
     }
 
     public void addHeroipermitido(String classeHeroi){
+
         heroisPermitidos.add(classeHeroi);
     }
+
+
+    public int getPreco() {
+        return preco;
+    }
+
+
+    public ArrayList<String> getHeroisPermitidos() {
+        return heroisPermitidos;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+
 }

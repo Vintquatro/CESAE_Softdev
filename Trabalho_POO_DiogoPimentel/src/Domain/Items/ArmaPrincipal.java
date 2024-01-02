@@ -21,4 +21,15 @@ public class ArmaPrincipal extends ItemHeroi{
         System.out.println("-------------------------");
 
     }
+
+    public int getAtaque() {
+        return ataque;
+    }
+
+    public int getAtaqueEspecial() {
+        return ataqueEspecial;
+    }
+
+
+
 }
