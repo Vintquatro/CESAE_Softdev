@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c0e14dd-4755-425a-a4a9-151e84078c53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Controllers/VendedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/VendedorController.java" afterDir="false" />
-    </list>
+    <list default="true" id="7c0e14dd-4755-425a-a4a9-151e84078c53" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +37,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev/FichaPraticaStrategy",
+    "last_opened_file_path": "C:/Users/softdev/Desktop/Trabalho_POO_DiogoPimentel",
     "onboarding.tips.debug.path": "C:/Users/diogo/Desktop/CESAE_SoftDev/Trabalho_POO_DiogoPimentel/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
