@@ -24,7 +24,7 @@ import java.io.File;
 import java.io.IOException;
 
 
-public class Jogo {
+public class Jogo{
 
 
     /**
