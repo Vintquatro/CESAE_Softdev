@@ -5,43 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ec0009f-a131-44b6-b4d0-d0a4b35bda8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_01/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_02/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_03/Alimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_03/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_01/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_02/StringUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_03/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/Trabalho_POO_DiogoPimentel/src/View/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/Trabalho_POO_DiogoPimentel/src/View/Jogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/Trabalho_POO_DiogoPimentel_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/Trabalho_POO_DiogoPimentel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Controllers/Ataques/Charisma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Controllers/Ataques/EstrategiaAtaque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Controllers/Ataques/Melee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Controllers/Ataques/Ranged.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Controllers/HeroiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Controllers/VendedorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Entidades/Entidade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Entidades/Heroi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Entidades/NPC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Entidades/Vendedor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Items/ArmaPrincipal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Items/Consumiveis/Consumivel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Items/Consumiveis/ConsumivelCombate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Items/Consumiveis/Pocao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Domain/Items/ItemHeroi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Repository/ItemRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/Tools/CSVItemReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trabalho_POO_DiogoPimentel_Final/out/production/Trabalho_POO_DiogoPimentel_3/View/Jogo.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_04/Retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_05/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_08/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_09/GameStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_09/VideoGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_04/RetanguloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_05/FuncionarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_08/ShoppingCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_09/GameStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ex_09/VideoGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROGRAMACAO/Ficha_JUnit/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROGRAMACAO/Ficha_JUnit/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROGRAMACAO/Ficha_JUnit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PROGRAMACAO/Ficha_JUnit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex_02/StringUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex_02/StringUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Ex_03/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Ex_03/AnimalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +34,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -65,9 +61,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2aXTPAQNbpC07Ht5Gu2TC2IP840" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,6 +80,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_directory_selection": "C:/Users/diogo/Desktop/CESAE_SoftDev/QA_FichaPratica1/src/test/java/Ex_03",
+    "last_opened_file_path": "C:/Users/softdev/Documents/GitHub/CESAE_Softdev/QA_FichaPratica1",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
@@ -92,81 +89,75 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Ex_09" />
+      <recent name="Ex_08" />
+      <recent name="Ex_05" />
+      <recent name="Ex_04" />
       <recent name="Ex_03" />
-      <recent name="Ex_02" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilsTest.testisPalindrome">
-    <configuration name="StringUtilsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;Ex_02.StringUtilsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.GameStoreTest.sellGame">
+    <configuration name="GameStoreTest.addGameToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_FichaPratica1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex_09" />
+      <option name="MAIN_CLASS_NAME" value="Ex_09.GameStoreTest" />
+      <option name="METHOD_NAME" value="addGameToStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="StringUtilsTest.testisPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;Ex_02.StringUtilsTest.testisPalindrome&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="GameStoreTest.sellGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_FichaPratica1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex_09" />
+      <option name="MAIN_CLASS_NAME" value="Ex_09.GameStoreTest" />
+      <option name="METHOD_NAME" value="sellGame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Tests in 'QA_FichaPratica1.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="RetanguloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_FichaPratica1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex_04" />
+      <option name="MAIN_CLASS_NAME" value="Ex_04.RetanguloTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_FichaPratica1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ex_08.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ex_08" />
+      <option name="MAIN_CLASS_NAME" value="Ex_08.ShoppingCartTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="StringUtilsTest.testisPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_FichaPratica1.test" />
@@ -186,10 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameStoreTest.sellGame" />
+        <item itemvalue="JUnit.GameStoreTest.addGameToStock" />
+        <item itemvalue="JUnit.ShoppingCartTest" />
         <item itemvalue="JUnit.StringUtilsTest.testisPalindrome" />
-        <item itemvalue="Gradle.StringUtilsTest.testisPalindrome" />
-        <item itemvalue="Gradle.Tests in 'QA_FichaPratica1.test'" />
-        <item itemvalue="Gradle.StringUtilsTest" />
+        <item itemvalue="JUnit.RetanguloTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +201,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QA_FichaPratica1$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1704464215007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/QA_FichaPratica1$StringUtilsTest_testisPalindrome.ic" NAME="StringUtilsTest.testisPalindrome Coverage Results" MODIFIED="1704708721583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Ex_02.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/QA_FichaPratica1$StringUtilsTest__1_.ic" NAME="StringUtilsTest (1) Coverage Results" MODIFIED="1704468723808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/QA_FichaPratica1$ShoppingCartTest.ic" NAME="ShoppingCartTest Coverage Results" MODIFIED="1704724076431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Ex_08.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -13,7 +13,9 @@ class StringUtilsTest {
      void testisPalindrome(){
         assertFalse(StringUtils.isPalindrome("teste"));
         assertTrue(StringUtils.isPalindrome("ANA"));
-        assertTrue(StringUtils.isPalindrome("teste"));
+        assertFalse(StringUtils.isPalindrome("teste"));
+        assertTrue(StringUtils.isPalindrome("!-ANA-!"));
+
     }
 
 

@@ -13,8 +13,13 @@ class AnimalTest {
     }
 
     @Test
-    void comerTeste(){
+    void fomeTeste(){
+
         assertTrue(animal.estaComFome());
+    }
+    @Test
+    void nomeTeste(){
+        assertEquals("Jony",animal.getNome());
     }
 
 }
