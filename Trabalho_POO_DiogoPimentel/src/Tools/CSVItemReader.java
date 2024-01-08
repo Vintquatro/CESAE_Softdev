@@ -35,7 +35,12 @@ public class CSVItemReader {
             String tipoItem = linhaDivisao[0];
             String nome = linhaDivisao[1];
             int preco = Integer.parseInt(linhaDivisao[2]);
+
             String heroisPermitidos = linhaDivisao[3];
+            heroisPermitidos=heroisPermitidos.replace("[","");
+            heroisPermitidos=heroisPermitidos.replace("]","");
+            String[] roles= heroisPermitidos.split(",");
+
             int ataque = Integer.parseInt(linhaDivisao[4]);
             int ataqueEspecial = Integer.parseInt(linhaDivisao[5]);
             int ataqueInstantaneo= Integer.parseInt(linhaDivisao[6]);
@@ -44,53 +49,21 @@ public class CSVItemReader {
 
             ItemHeroi itemHeroiAtual=null;
 
-            switch (tipoItem){
-                case "ArmaPrincipal":
-                    itemHeroiAtual= new ArmaPrincipal(nome,preco,ataque,ataqueEspecial);
 
-
-                    if (heroisPermitidos.contains("Melee")){
-                        itemHeroiAtual.addHeroipermitido("Melee");
-                    }
-                    if (heroisPermitidos.contains("Ranged")){
-                        itemHeroiAtual.addHeroipermitido("Ranged");
-                    }
-                    if (heroisPermitidos.contains("Charisma")){
-                        itemHeroiAtual.addHeroipermitido("Charisma");
-                    }
-
-                    break;
-
-                case "ConsumivelCombate":
-                    itemHeroiAtual= new ConsumivelCombate(nome,preco,ataqueInstantaneo);
-
-                    if (heroisPermitidos.contains("Melee")){
-                        itemHeroiAtual.addHeroipermitido("Melee");
-                    }
-                    if (heroisPermitidos.contains("Ranged")){
-                        itemHeroiAtual.addHeroipermitido("Ranged");
-                    }
-                    if (heroisPermitidos.contains("Charisma")){
-                        itemHeroiAtual.addHeroipermitido("Charisma");
-                    }
-
-
-                    break;
-
-                case "Pocao":
-                    itemHeroiAtual= new Pocao(nome,preco,power,vida);
-
-                    if (heroisPermitidos.contains("Melee")){
-                        itemHeroiAtual.addHeroipermitido("Melee");
-                    }
-                    if (heroisPermitidos.contains("Ranged")){
-                        itemHeroiAtual.addHeroipermitido("Ranged");
-                    }
-                    if (heroisPermitidos.contains("Charisma")){
-                        itemHeroiAtual.addHeroipermitido("Charisma");
-                    }
-                    break;
+            if (tipoItem.equalsIgnoreCase("armaprincipal")){
+                itemHeroiAtual = new ArmaPrincipal(nome,preco,ataque,ataqueEspecial);
             }
+            if (tipoItem.equalsIgnoreCase("consumivelcombate")){
+                itemHeroiAtual= new ConsumivelCombate(nome,preco,ataqueInstantaneo);
+            }
+            if (tipoItem.equalsIgnoreCase("pocao")){
+                itemHeroiAtual= new Pocao(nome,preco,power,vida);
+            }
+
+            for (int i = 0; i < roles.length;i++){
+                itemHeroiAtual.addHeroipermitido(roles[i]);
+            }
+
 
             loja.add(itemHeroiAtual);
 

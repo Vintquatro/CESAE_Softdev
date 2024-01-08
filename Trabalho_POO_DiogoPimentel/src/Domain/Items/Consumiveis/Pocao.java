@@ -21,4 +21,23 @@ public class Pocao extends Consumivel{
         System.out.println("-------------------------");
 
     }
+
+    public int getPowerUP() {
+        return powerUP;
+    }
+
+    public int getHeal() {
+        return heal;
+    }
+
+    public void setPowerUP(int powerUP) {
+
+        this.powerUP = powerUP;
+    }
+
+    public void setHeal(int heal) {
+        this.heal = heal;
+    }
+
+
 }
